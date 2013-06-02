@@ -1,0 +1,12 @@
+diff --git a/configure b/configure
+index 4a8d85f..3522ae5 100755
+--- a/configure
++++ b/configure
+@@ -3433,7 +3433,6 @@ die_license_disabled_gpl() {
+ 
+ die_license_disabled gpl libcdio
+ die_license_disabled gpl libutvideo
+-die_license_disabled gpl libx264
+ die_license_disabled gpl libxavs
+ die_license_disabled gpl libxvid
+ die_license_disabled gpl x11grab
