@@ -1,0 +1,25 @@
+Prerequisites.
+==============
+
+1. C compiler, GCC 4.2.X and clang 3.1.X are known to work.
+2. yasm (http://yasm.tortall.net), version >= 1.2.0.
+3. Git (http://git-scm.com), version >= 1.6.X (if you are reading this
+   file chances are that you've got the appropriate version installed).
+
+Downloading FFmpeg and x264 sources.
+====================================
+
+Run the init.sh script located in the top level directory of the repository.
+This should be done only once (after cloning the repository).
+
+Compilation.
+============
+
+cd darwin; make
+
+After a few minutes the ffmpeg-x86_64-darwin.zip file will be produced.
+It contains the required libraries and headers. Unzip it:
+
+cd /; unzip /path/to/ffmpeg-x86_64-darwin.zip
+
+and that's it.
